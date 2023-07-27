@@ -1,0 +1,287 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login And Register</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- CSS 
+    ========================= -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body class="bg-black">
+
+<!-- Main Wrapper Start -->
+<div class="main-wrapper">
+   
+    <!-- login-register  -->
+    <div class="register-page bg-black section-pt-90 section-pb-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 m-auto">
+                    <div class="login-register-wrapper">
+                        <!-- login-register-tab-list start -->
+                        <div class="login-register-tab-list white nav">
+                            <a class="active" data-bs-toggle="tab" href="#lg1">
+                                <h4> login </h4>
+                            </a>
+                            <a data-bs-toggle="tab" href="#lg2">
+                                <h4> register </h4>
+                            </a>
+                        </div>
+                        <!-- login-register-tab-list end -->
+                        <div class="tab-content">
+                            <div id="lg1" class="tab-pane active">
+                                <div class="login-form-container border-black">
+                                    <div class="login-register-form black-style">
+                                        <form  method="post" id="pForm">
+                                            <div class="login-input-box">
+                                                <input type="text" id="Email" name="Email" placeholder="Email">
+                                                <input type="password" id="Password" name="user-password" placeholder="Password">
+                                            </div>
+                                            <div class="button-box">
+                                                <div class="button-box">
+                                                    <button class="login-btn btn" type="submit"><span>Login</span></button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="lg2" class="tab-pane">
+                                <div class="login-form-container border-black">
+                                    <div class="login-register-form black-style">
+                                        <form id="registerForm" method="post">
+                                            <div class="login-input-box">
+                                                <input id="name" type="text" name="user-name" placeholder="User Name">
+                                                <input id="passwordR" type="password" name="user-password" placeholder="Password">
+                                                <input id="EmailR" name="user-email" placeholder="Email" type="email">
+                                                <input id="phoneNumber" name="phoneNumber" placeholder="PhoneNumber" type="text">
+                                                <input id="img_url" name="img_url" placeholder="Profile picture URL" type="text">
+
+                                            </div>
+                                            <div class="button-box">
+                                                <button class="register-btn btn" type="submit"><span>Register</span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// login-register End -->
+<!-- Main Wrapper End -->
+
+<!-- JS
+============================================ -->
+
+<!-- jquery -->		
+<script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+<!-- Ajax Mail -->
+<script src="assets/js/ajax-mail.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="assets/js/ajaxCalls.js"></script>
+
+<script>
+
+
+        $(document).ready(function () {
+            $("#pForm").submit(function(event){
+                event.preventDefault();
+                login();
+            });
+
+            $("#registerForm").submit(function(event){
+                event.preventDefault();
+                $("#name").on("blur", checkName);
+                $("#EmailR").on("blur", checkEmail);
+                $("#passwordR").on("blur", checkPassword);
+                $("#phoneNumber").on("blur", checkPhoneNumber);
+                register();
+            });
+        });
+
+        function validateEmail(email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+
+
+        function login() {
+            var email = $("#Email").val();
+            var password = $("#Password").val();
+            if (!validateEmail(email)) {
+                swal("Error", "Invalid email form", "error");
+                return;
+            }
+
+
+
+            
+            console.log(email)
+            console.log(password)
+            ajaxCall("POST", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/LogIn/"+email+"/"+password+"", successDB, errorDB); 
+
+            function successDB(data) {
+                console.log("im in success")
+                swal("Login Successful!", "Welcome back", "success");
+                window.localStorage.setItem("user", JSON.stringify(data)); 
+                setTimeout(function() {}, 3000);
+                window.location.href = "mainpage.html";
+            }
+            
+            function errorDB(err) {
+                console.log("im in error")
+                obj = JSON.parse(err);
+                if(obj.email == email && obj.password == password){
+                    swal("Login Successful!", "Welcome back", "success");
+                    window.localStorage.setItem("user", JSON.stringify(obj)); 
+                    setTimeout(function() {
+                    window.location.href = "mainpage.html";
+                }, 3000);
+                }else{
+                    swal("Error", "Invalid email or password", "error");
+                }
+                
+                
+            }
+
+        }
+
+
+        function f1() {
+            login();
+            return false; 
+            
+        }
+// --------------------------
+
+
+
+
+
+            
+            $("#name").on("blur", checkName);
+            $("#EmailR").on("blur", checkEmail);
+            $("#passwordR").on("blur", checkPassword);
+            $("#phoneNumber").on("blur", checkPhoneNumber);
+            function checkName() {
+            if (this.value === "") { 
+                this.validity.valid = false; 
+                this.setCustomValidity('Please enter your name');
+            }
+            else {
+                this.validity.valid = true;
+                this.setCustomValidity('');
+            }
+            }
+            function validateEmail(email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+            }   
+            function checkEmail() {
+            if (!validateEmail(this.value)) { 
+                this.validity.valid = false;
+                this.setCustomValidity('Please enter a valid email');
+            } else {
+                this.validity.valid = true;
+                this.setCustomValidity('');
+            }
+            }
+
+            function checkPassword() {
+            if (this.value === "") { 
+                this.validity.valid = false;
+                this.setCustomValidity('Please enter your password');
+            }else if(this.value.length <= 8){
+                this.validity.valid = false;
+                this.setCustomValidity('Please enter a password with at least 8 characters');   
+            }else {
+                this.validity.valid = true;
+                this.setCustomValidity('');
+            }
+            }
+
+            function checkPhoneNumber() {
+            if (isNaN(this.value) || this.value.length !== 10) { 
+                this.validity.valid = false;
+                this.setCustomValidity('Please enter a valid 10 digit phone number');
+            } else {
+                this.validity.valid = true;
+                this.setCustomValidity('');
+            }
+            }
+
+            function register() {
+
+            let account = {
+                name: $("#name").val(),
+                Email: $("#EmailR").val(),
+                Password: $("#passwordR").val(),
+                PhoneNumber: parseInt($("#phoneNumber").val()),
+                Img_url: $("#img_url").val() === "" ? "https://cdn.discordapp.com/attachments/930951760372203580/1098335145334947900/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.png" : $("#img_url").val()
+            }
+            ajaxCall("POST", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/User/api/User/CreateNewUserIfNotE",JSON.stringify(account), success, error);
+
+            }
+
+            function success(data) {
+            if(data == 1){
+                swal("Account Created!", "Welcome", "success");
+                setTimeout(function() {
+                    window.location.href = "login-and-register-2.html";
+                }, 3000);
+            }else{swal("Email Already in Use!", "try login using this email", "error");}
+            
+            }
+
+
+            function error(err) {
+            swal("Error", "Something went wrong", "error");
+            }
+            // function f2() {
+            // register();
+            // return false; 
+
+            // }
+
+
+
+</script>
+</body>
+
+
+</html>

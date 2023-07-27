@@ -1,0 +1,126 @@
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\appsettings.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.exe
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.deps.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.runtimeconfig.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.pdb
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.AssemblyReference.cache
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.AssemblyInfoInputs.cache
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.AssemblyInfo.cs
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.CoreCompileInputs.cache
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.ServerSideProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.build.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\scopedcss\bundle\ServerSideProject.styles.css
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.CopyComplete
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\refint\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.pdb
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.genruntimeconfig.cache
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ref\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.AssemblyReference.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.AssemblyInfoInputs.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.AssemblyInfo.cs
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.CoreCompileInputs.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\refint\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.pdb
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\appsettings.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.exe
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.deps.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.runtimeconfig.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.pdb
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.ServerSideProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.build.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\scopedcss\bundle\ServerSideProject.styles.css
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.CopyComplete
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.genruntimeconfig.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Syncfolder\My Drive\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ref\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\yazan\OneDrive\سطح المكتب\syncFolder\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.YouTube.v3.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\appsettings.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.exe
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.deps.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.runtimeconfig.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\ServerSideProject.pdb
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Google.Apis.YouTube.v3.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.AssemblyReference.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.AssemblyInfoInputs.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.AssemblyInfo.cs
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.CoreCompileInputs.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.ServerSideProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.build.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ServerSideProject.props
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\scopedcss\bundle\ServerSideProject.styles.css
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.csproj.CopyComplete
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\refint\ServerSideProject.dll
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.pdb
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ServerSideProject.genruntimeconfig.cache
+C:\Users\yazan\OneDrive\سطح المكتب\Server-side-project\ServerSideProject\ServerSideProject\obj\Debug\net6.0\ref\ServerSideProject.dll

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticon5474.ttf?a81769d372fb6c79883374ad42169fa1") format("truetype"),
+url("flaticon5474.woff?a81769d372fb6c79883374ad42169fa1") format("woff"),
+url("flaticon5474.woff2?a81769d372fb6c79883374ad42169fa1") format("woff2"),
+url("flaticon5474.eot?a81769d372fb6c79883374ad42169fa1#iefix") format("embedded-opentype"),
+url("flaticon5474.svg?a81769d372fb6c79883374ad42169fa1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-pin:before {
+    content: "\f101";
+}
+.flaticon-mail:before {
+    content: "\f102";
+}
+.flaticon-call:before {
+    content: "\f103";
+}
+.flaticon-calendar:before {
+    content: "\f104";
+}
+.flaticon-professional-condenser-microphone-outline:before {
+    content: "\f105";
+}
+.flaticon-karaoke:before {
+    content: "\f106";
+}
+.flaticon-karaoke-1:before {
+    content: "\f107";
+}
+.flaticon-mike:before {
+    content: "\f108";
+}
+.flaticon-microphone:before {
+    content: "\f109";
+}
+.flaticon-microphone-1:before {
+    content: "\f10a";
+}
+.flaticon-music:before {
+    content: "\f10b";
+}
+.flaticon-music-1:before {
+    content: "\f10c";
+}
+.flaticon-music-2:before {
+    content: "\f10d";
+}
+.flaticon-guitar:before {
+    content: "\f10e";
+}
+.flaticon-music-3:before {
+    content: "\f10f";
+}
+.flaticon-quaver:before {
+    content: "\f110";
+}
+.flaticon-stave:before {
+    content: "\f111";
+}
+.flaticon-music-notes:before {
+    content: "\f112";
+}
+.flaticon-clef:before {
+    content: "\f113";
+}
+.flaticon-music-notes-1:before {
+    content: "\f114";
+}
+.flaticon-musical-note:before {
+    content: "\f115";
+}

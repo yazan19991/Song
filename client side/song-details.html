@@ -1,0 +1,452 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- CSS 
+    ========================= -->
+    <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.4.0/css/pro.min.css" rel="stylesheet">
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+<body >
+<!-- Main Wrapper Start -->
+<div class="main-wrapper">
+   
+    <header class="header-area bg-black section-padding-lr">
+        <div class="container-fluid">
+            <div class="header-wrap header-netflix-style">
+                <div class="logo-menu-wrap">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="mainpage.html"><img src="assets/images/logo/logo.jpeg" alt=""></a>
+                    </div>
+                    <!-- Logo -->
+                    <div class="main-menu main-theme-color-four">
+                        <nav class="main-navigation">
+                            <ul>
+                                <li class="active"><a href="mainpage.html">Home</a></li>
+                                <li><a href="Artists.html">Artists</a>
+                                <li><a href="songs.html">Songs</a>
+                                <li><a href="additions.html">Additions</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="right-side d-flex">
+                    <!-- our-profile-area start -->
+                    <div class="our-profile-area ">
+                        <a href="#" class="our-profile-pc" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="profile-imgg" id="userimg" src="assets/images/review/author-01.png" alt="">
+                        </a>
+                        <div class="dropdown-menu netflix-profile-style red">
+                            <ul>
+                                <li class="single-list"><a href="Favourite.html">Favourite List</a></li>
+                                <li class="single-list"><a href="my-account-2.html">My Account</a></li>
+                                <li class="single-list"><a href="login-and-register-2.html" id="logout-link">Log Out</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- mobile-menu start -->
+                    <div class="mobile-menu d-block d-lg-none"></div>
+                    <!-- mobile-menu end -->
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <div class="Artist-details-wrap section-ptb-50 "><!--bg-black-->
+        <div class="container">
+            <div class="Artist-details-video-content-wrap">
+                <div class="Artist-details-content">
+                    <div class="section-ArtistsD md">
+                        <div class="container" id="Artist-details-add"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Wrapper End -->
+
+<!-- JS
+============================================ -->
+
+<!-- jquery -->		
+<script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+<!-- Ajax Mail -->
+<script src="assets/js/ajax-mail.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/main2.js"></script>
+<script src="assets/js/ajaxCalls.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- <script src="assets/js/Q.JS"></script> -->
+<script>
+
+            const user = JSON.parse(localStorage.getItem('user'));
+            if (user) {
+                showUserInfo(user);
+            }
+
+            function showUserInfo(user) {
+                const avatarImg = document.getElementById('userimg');
+                avatarImg.src = user.img_url;
+            }
+
+
+
+            function logout() {
+            localStorage.removeItem('user');
+            window.location.href = `index.html`
+            }
+            const logoutLink = document.getElementById("logout-link");
+            logoutLink.addEventListener("click", function(event) {
+            event.preventDefault();
+            logout(); 
+            });
+
+
+    $(document).ready(function() {
+        // Extract the artist name from the URL
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
+        var artistName = getUrlParameter('artist');
+        var songName = getUrlParameter('song');
+        var isFavorit;
+        var songiid;
+        function errorCB(error) {
+              console.error("Error fetching artists:", error);
+              swal("Error", "Something went wrong! Try again later", "error");
+
+        }
+        
+
+        
+        ajaxCall("GET", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/Song/GetSongByName?SongName=" + songName, null, rendersongdata1, errorCB);
+        function rendersongdata1(dbdata){
+            ajaxCall("GET", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/Song/GetSongFavoriteCount?songID=" + dbdata[0].songID1, null, rendersongdata2, errorCB);
+            function rendersongdata2(FavNum){
+                    console.log(dbdata)
+                    ajaxCall("GET", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/LastFmService/SongInfo?artistName="+artistName+"&songName="+dbdata[0].songName1+"", null, rendersongdata2, errorCB);
+                    function rendersongdata2(LastFmArtistsData){
+                                data = LastFmArtistsData
+                                console.log(data)                        
+                                songiid=dbdata[0].songID1;
+                                console.log(songiid)
+                            
+                                socials = ""
+                                if (data && data.track && data.track.url) {
+                                    socials = socials+`
+                                    <li>
+                                    <a href="${data.track.url}"><i class="fa-brands fa-lastfm"></i> </a>
+                                    </li>`
+                                }
+                                if(data.track&&data.track.name){
+                                    songgname = data.track.name
+                                    }else{
+                                        songgname = songName
+                                    }
+                                if(data.track&&data.track.artist&&data.track.artist.url){
+                                    artisturl = data.track.artist.url
+                                    }else{
+                                        artisturl = ""
+                                    }
+                                if(data.track&&data.track.artist&&data.track.artist.name){
+                                    dartistname = data.track.artist.name
+                                    }else{
+                                        dartistname = artistName
+                                    }
+                                if(data.track&&data.track.playcount&&data.track.listeners){
+                                    playcount = data.track.playcount
+                                    listeners = data.track.listeners
+                                    }else{
+                                        playcount = "there is no data"
+                                        listeners = "there is no data"
+                                    }
+                                if(socials == ""){
+                                    socials = songgname+" has no page at lastFM"
+                                }
+                                ArtistsAvailableON = "<h6>Album</h6>"
+                                if (data && data.track && data.track.album) {
+                                    ArtistsAvailableON = ArtistsAvailableON+`
+                                    <a href="${data.track.album.url}" class="Album">
+                                        ${data.track.album.title}
+                                    </a>`
+                                }                    
+                                if(ArtistsAvailableON == "<h6>Album</h6>"){
+                                    ArtistsAvailableON = "<h6>There is no Album for - "+songgname+"</h6>"
+                                }
+
+                                if(data && data.track && data.track.album  && data.track.album.image[2]['#text']){
+                                    img = data.track.album.image[2]['#text']
+                                }else{
+            
+                                    img = dbdata[0].img_url
+                                }
+                                if(data && data.track && data.track.wiki  && data.track.wiki.summary){
+                                    summary = data.track.wiki.summary
+                                }else{
+                                    summary = "There is no information about this song."
+                                }
+                                var Artistsinfo = document.createElement('div');
+                                Artistsinfo.className = 'row align-items-start align-items-md-center';
+                                Artistsinfo.innerHTML = `
+                                <div class="row align-items-start align-items-md-center">
+                                    <div class="col-lg-4 col-sm-4">
+                                        <div class="andro_artist-d-img">
+                                            <img
+                                            class="andro_img-cover"
+                                            src="${img}" alt="artist"/>
+                                            <div class="andro_artist-d-img-shadow">
+                                                <img
+                                                    class="andro_img-cover"
+                                                    src="${img}"
+                                                    alt="artist"
+                                                />
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-lg-7 offset-lg-1 col-sm-8">
+                    <div class="andro_artist-d-content">
+                        <div class="andro_artist-d-header">
+                        <div class="andro_artist-d-name">
+                            <h2 class="h3">${songgname}</h2>
+                        </div>
+                        <ul class="andro_socials">
+                            ${socials}
+                        </ul>
+                        </div>
+                        <div class="andro_artist-d-meta">
+                        <div class="andro_artist-d-meta-item">
+                            <b>Artist </b>
+                            <span>
+                                <b 
+                                    class="fw-500 color-primary" 
+                                    style="text-decoration: underline; cursor: pointer;" 
+                                    onclick="window.location.href='${artisturl}'">
+                                    ${dartistname}
+                                </b>
+
+                            </span>
+                        </div>
+                        <div class="andro_artist-d-meta-item">
+                            <b>Stats: </b>
+                            <span> listeners: ${listeners} Playcount: ${playcount}</span>
+                        </div>
+
+                        </div>
+                        <div class="andro_artist-d-availability">
+                        ${ArtistsAvailableON}
+                        </div>
+                        <div class="andro_artist-d-meta-item">
+                            <h6 class="addToFav" style="text-decoration: underline; cursor: pointer;">${isFavorit}</h6>
+                            <h7 class="NumFav" >${FavNum} User have it in their favorite</h7>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+                                `;
+                            $('#Artist-details-add').append(Artistsinfo);
+                            var Artists1 = document.createElement('div');
+                            Artists1.className = 'andro_artist-d-content-wrap';
+
+                            var Artistsdata = document.createElement('div');
+                            Artistsdata.className = 'andro_artist-d-content';
+                            Artists1.append(Artistsdata);
+                            
+                            var artistDescription = document.createElement('div');
+                            artistDescription.className = 'andro_artist-d-section';
+                            artistDescription.id = 'artistDescription';
+                            artistDescription.innerHTML = `
+                            <h4>about the song</h4>
+                        <div class="andro_artist-d-section-content">
+                        <p>${summary}</p>
+
+                        </div>
+                            `;
+                            Artists1.append(artistDescription);
+                            $('#Artist-details-add').append(Artists1);
+                            
+                            var Artists2 = document.createElement('div');
+                            Artists2.className = 'andro_artist-d-content-wrap';
+
+                            var Artistsdata2 = document.createElement('div');
+                            Artistsdata2.className = 'andro_artist-d-content';
+                            Artists2.append(Artistsdata2);
+                            
+                            var artistDescription2 = document.createElement('div');
+                            artistDescription2.className = 'andro_artist-d-section';
+                            artistDescription2.id = 'artistDescription';
+                            artistDescription2.innerHTML = `
+                            <h4>lyrics</h4>
+                        <div class="andro_artist-d-section-content">
+                        <p>${dbdata[0].lyrics1}</p>
+
+                        </div>
+                            `;
+                            Artists2.append(artistDescription2);
+                            $('#Artist-details-add').append(Artists2);
+
+                    }
+            ajaxCall("GET", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/Song/IsSongInUserFavorites?userID="+user.id+"&songID="+ dbdata[0].songID1, null, isFavorites, errorCB);
+            function isFavorites(data){
+                        isInFavorites = data
+                        console.log(isInFavorites)
+
+                        if (isInFavorites == true) {
+                                            isFavorit = 'Remove from favorites';
+                                           
+                        } else {
+                                            isFavorit = 'Add to favorites';
+                                           
+                        }
+                                        
+                        ajaxCall("GET", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/YoutubeSearch?searchTerm="+dbdata[0].songName1+"&searchType=video&HowMush=1", null, isYoutubeAv, errorCB);
+                            function isYoutubeAv(youtubeData){
+                                console.log(youtubeData)
+
+                                if(youtubeData.videos[0]){
+                                const videoString = youtubeData.videos[0];
+                                // Split the string into title and video ID using the "(" as the separator
+                                const title = videoString.substring(0, videoString.lastIndexOf(" ("));
+                                const videoId = videoString.substring(videoString.lastIndexOf("(") + 1, videoString.length - 1);
+
+                                // Generate the YouTube video URL using the extracted video ID
+                                const videoURL = `https://www.youtube.com/embed/${videoId}`;
+
+                                
+                                    var youtubevid = document.createElement('div');
+                                    youtubevid.className = 'andro_artist-d-section';
+                                    youtubevid.id = 'artistDescription';
+                                    youtubevid.innerHTML = `
+                                    <h4>YouTube video</h4>
+                                    <div class="andro_artist-d-section-content">
+                                    <iframe width="420" height="315"
+                                        src="${videoURL}">
+                                    </iframe>
+                                   </div>
+                                    `;
+                                // Artists2.append(youtubevid);
+                                $('#Artist-details-add').append(youtubevid);
+                        }}
+                                    
+                }    
+                
+                      
+      $(document).on('click', '.addToFav', function() {
+            var action = $(this).text(); 
+            var userID = user.id;  
+            console.log(songiid)
+            var songID = songiid;  
+
+            if(action == 'Add to favorites') {
+                addToFavorites(userID, songID)
+            } else {
+                removeFromFavorites(userID, songID)
+            }
+        });
+     function addToFavorites(userID, songID){
+        ajaxCall("POST", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/Song/AddSongToFavorites?userid="+userID+"&songid="+songID, null, secssesCB, errorCBb);
+        FavNum +=1
+        function secssesCB(data){
+            if (data) {
+                $('.addToFav').text('Remove from favorites');
+                $('.NumFav').text(FavNum+" User have it in their favorite");
+            }else{
+                console.log("Error adding to favorites");
+                swal("Error", "Something went wrong! Try again later", "error");
+            }
+        }
+        function errorCBb(error){
+            console.log("Error adding to favorites");
+            swal("Error", "Something went wrong! Try again later", "error");
+        }
+     }
+     function removeFromFavorites(userID, songID){
+        ajaxCall("DELETE", "https://proj.ruppin.ac.il/cgroup21/test2/tar1/api/Song/RemoveSongFromFavorites?userid="+userID+"&songid="+songID, null, secssesCBB, errorCBBb);
+        FavNum -=1
+        function secssesCBB(data){
+            if (data) {
+                $('.addToFav').text('Add to favorites');
+                $('.NumFav').text(FavNum+" User have it in their favorite");
+            }else{
+                console.log("Error Remove to favorites");
+                swal("Error", "Something went wrong! Try again later", "error");
+            }
+        }
+        function errorCBBb(error){
+            console.log("Error Remove to favorites");
+            swal("Error", "Something went wrong! Try again later", "error");
+        }
+     }
+
+
+
+
+      }
+    }
+
+
+
+
+
+
+
+     });
+
+</script>
+
+
+
+
+
+</body>
+
+
+</html>
